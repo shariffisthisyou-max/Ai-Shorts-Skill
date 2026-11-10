@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build and render outputs
+renders/
+review/
+data/
+.tmp_audio/
+*.mp4
+*.wav
+*.mp3
+*.aac
+*.jpg
+*.png
+
+# Python / TTS caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
