@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Day 01 - 100x SubhanAllah wa biHamdihi</title>
+  <style>
+    @font-face { font-family: 'Inter'; font-weight: 900; src: url('fonts/Inter-Black.otf'); }
+    @font-face { font-family: 'Inter'; font-weight: 800; src: url('fonts/Inter-ExtraBold.otf'); }
+    @font-face { font-family: 'Caladea'; font-weight: 700; src: url('fonts/Caladea-Bold.ttf'); }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #060913;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #cv {
+      display: block;
+      height: 100vh;
+      width: auto;
+      box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+    body.capture #cv {
+      height: auto;
+    }
+    #gl {
+      display: none;
+    }
+    #play {
+      position: fixed;
+      bottom: 40px;
+      font: 900 24px 'Inter', sans-serif;
+      padding: 16px 36px;
+      border: 0;
+      border-radius: 40px;
+      background: linear-gradient(135deg, #FFD43B, #FFA900);
+      color: #0b0f19;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(255, 170, 0, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+      z-index: 999;
+    }
+    #play:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 30px rgba(255, 170, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="cv" width="1080" height="1920"></canvas>
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <button id="play">▶ PLAY SHORT</button>
+
+  <script>if (location.search.includes('capture')) document.body.className = 'capture';</script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three.module.js",
+        "three/addons/": "./vendor/addons/"
+      }
+    }
+  </script>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

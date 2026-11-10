@@ -1,0 +1,25 @@
+{
+  "title": "100x SubhanAllah wa biHamdihi",
+  "voiceName": "ar-SA-HamedNeural",
+  "speed": 1.0,
+  "lead": 0.4,
+  "outro": 1.0,
+  "gap": 0.25,
+  "music": "ambient",
+  "sources": [
+    "Sahih al-Bukhari 6405: Narrated Abu Huraira: Allah's Messenger (ﷺ) said, 'Whoever says, SubhanAllahi wa bihamdihi, one hundred times a day, will be forgiven all his sins even if they were as much as the foam of the sea.'"
+  ],
+  "lines": [
+    { "text": "Before you scroll,", "caps": "Before | you | scroll," },
+    { "text": "say SubhanAllahi wa biHamdihi one hundred times with us.", "caps": "say | SubhanAllahi | wa biHamdihi | 100 times | with us." },
+    { "text": "Watch every drop of heavy seafoam turn into radiant pearls.", "caps": "Watch | every drop | of seafoam | turn into | radiant pearls." },
+    { "text": "SubhanAllahi wa biHamdihi. Glory be to Allah and His is the praise.", "caps": "SubhanAllahi | wa biHamdihi | Glory be to Allah", "gap": 28.0 },
+    { "text": "The Prophet peace be upon him said:", "caps": "The Prophet | peace be upon him | said:" },
+    { "text": "Whoever says SubhanAllahi wa bihamdihi one hundred times a day,", "caps": "Whoever says | SubhanAllahi wa bihamdihi | 100 times | a day," },
+    { "text": "will have all their sins forgiven,", "caps": "will have | all their sins | forgiven," },
+    { "text": "even if they were as much as the foam of the sea.", "caps": "even if | they were as much | as the foam | of the sea." },
+    { "text": "Sahih al-Bukhari 6405.", "caps": "Sahih | al-Bukhari | 6405." },
+    { "text": "Save this, and say it again tomorrow.", "caps": "Save this, | and say it | again | tomorrow.", "gap": 0.5 }
+  ]
+}
+
